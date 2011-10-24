@@ -30,21 +30,25 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 
 == Installation ==
 
-**Install Plugin**
+First, Get your chat code: 
 
-1. Upload the rumbletalk-chat directory to the /wp-content/plugins/ directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Click 'Settings' and then 'RumbleTalk chat'. 
+1. Enter your email & choose a password at http://www.rumbletalk.com
+2. Then click on the "Get Chat Code" and get the code for wordpress.
 
-4. Enter your email & choose a password at http://www.rumbletalk.com
-5. Click the "Get Chat Code" and get the code for wordpress.
-6. Optional - Enter the chat width and height (e.g 400 x 300)
+Second, Install the Plugin:
+ 
+3. Upload the rumbletalk-chat directory to the `/wp-content/plugins/` directory
+4. Activate the plugin through the 'Plugins' menu in WordPress
+5. Click 'Settings' and then 'RumbleTalk chat'
+6. Add a the chat code. (Optional - Enter the chat width and height e.g 400 x 300)
 
-7. Use the phrase [rumbletalk-chat] in your posts text (you can do it in visual mode, no need to switch to HTML view) 
-8. in order to position the chat widget exactly where you need it.
+Add the chat to your choosen page:
+
+7. Use the phrase '[rumbletalk-chat]' in your posts text (you can do it in visual mode, no 
+need to switch to HTML view) in order to position the chat widget exactly where you need it.
 
 
-Full instructions:
+Full instructions can be found:
 
 http://www.rumbletalk.com/rumbletalk-wordpress-chat-plugin.php
 
