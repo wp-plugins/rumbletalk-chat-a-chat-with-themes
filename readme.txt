@@ -30,17 +30,16 @@ Features:
 
 == Installation ==
 
-Plugin Upload:
+
 1. Upload the rumbletalk-chat directory to the /wp-content/plugins/ directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Click 'Settings' and then 'RumbleTalk chat'. 
 
-Get your chat code: 
+ 
 4. Enter your email & choose a password at http://www.rumbletalk.com
 5. Click the "Get Chat Code" and get the code for wordpress.
 6. Optional - Enter the chat width and height (e.g 400 x 300)
 
-Finally:
 7. Use the phrase [rumbletalk-chat] in your posts text (you can do it in visual mode, no need to switch to HTML view) 
 8. in order to position the chat widget exactly where you need it.
 
