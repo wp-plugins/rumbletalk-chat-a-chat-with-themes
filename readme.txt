@@ -15,7 +15,7 @@ Add a chat with your own design theme to match your website look and feel
 RumbleTalk chat plugin lets users choose their own chat theme from a variety of ready made themes and even allows website owners to design their own chat theme.
 It is the fastest way to add a unique free and fully functional chat to your blog or website.
 
-Features:
+**Features:**
 
 * Create your own chat theme.
 * The chat can be accessed from anywhere, Laptop Smart phones and Tablets. Stay in contact with your community.
@@ -30,6 +30,7 @@ Features:
 
 == Installation ==
 
+**Install Plugin**
 
 1. Upload the rumbletalk-chat directory to the /wp-content/plugins/ directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
