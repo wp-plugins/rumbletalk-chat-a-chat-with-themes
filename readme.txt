@@ -1,4 +1,4 @@
-=== Chat with your own Theme, RumbleTalk ===
+=== Chat with your own theme, RumbleTalk ===
 Contributors: yanir
 Donate link:
 Tags: chat, discussion, live, comments, forums
@@ -7,12 +7,13 @@ Tested up to: 2.1
 Stable tag: trank
 
 
-Choose a chat theme from a veriaty themes to match exactly your website look and feel
+Add a chat with your own chat theme to match exactly your website look and feel
+
 
 == Description ==
 
-RumbleTalk chat plugin let users choose their own chat theme and even design their own chat theme.
-It is the fastest way to add a free and fully functional chat to your blog that match exactly your website design
+RumbleTalk chat plugin let users choose their own chat theme from a variety of allready made themes and even let website owners to design their own chat theme.
+It is the fastest way to add a unique free and fully functional chat to your blog or website.
 
 Features:
 
