@@ -3,7 +3,7 @@
 Plugin Name: RumbleTalk Chat
 Plugin URI: http://www.rumbletalk.com/3rdsupport.php
 Description: Add a <strong>Free Group Chat Widget</strong> to your blog or site in under a minute
-Version: 0.1
+Version: 1.0.1
 Author: Yanir Shahak
 Author URI: http://www.rumbletalk.com/contact_us.php
 License: GPL2
@@ -11,7 +11,7 @@ License: GPL2
 Copyright 2011 Yanir Shahak (email : yanir@rumbletalk.com)
 
 This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License, version 2, as 
+it under the terms of the GNU General Public License, version 2, as
 published by the Free Software Foundation.
 
 This program is distributed in the hope that it will be useful,
@@ -68,7 +68,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 		public function drawAdminPage()
 		{
-?>			
+?>
 			<div>
 				<h2>RumbleTalk Chat Options</h2>
 				<form method="post" action="options.php">
@@ -117,11 +117,11 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			</div>
 <?
 		}
-		
+
 		public function embed( $content )
 		{
 			$code = get_option( "rumbletalk_chat_code" );
-			
+
 			if ( empty( $code ) )
 			{
 				return;
