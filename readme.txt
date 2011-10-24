@@ -35,7 +35,6 @@ Features:
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Click 'Settings' and then 'RumbleTalk chat'. 
 
- 
 4. Enter your email & choose a password at http://www.rumbletalk.com
 5. Click the "Get Chat Code" and get the code for wordpress.
 6. Optional - Enter the chat width and height (e.g 400 x 300)
