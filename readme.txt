@@ -1,7 +1,7 @@
 === Chat with your own theme, RumbleTalk ===
 Contributors: yanir
 Donate link:
-Tags: chat, discussion, live, comments, forums
+Tags: chat, discussion, widget, plugin, live, comments, forums
 Requires at least: 2.0.2
 Tested up to: 2.1
 Stable tag: trank
