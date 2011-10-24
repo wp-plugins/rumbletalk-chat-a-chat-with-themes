@@ -48,10 +48,11 @@ For Full instruction, you may use http://www.rumbletalk.com/rumbletalk-wordpress
 
 
 == Screenshots ==
-/trank/screenshot-1.jpg
-/trank/screenshot-2.jpg
-/trank/screenshot-3.jpg
-/trank/screenshot-4.jpg
+1. An example of a chat skin/theme with bubbles chat.
+2. Another example of a chat skin/theme with a framed chat.
+3. Admin panel with various chats for different pages in your websites or different domains.
+4. Design panel that let you change your own chat.
+
 
 
 == Frequently Asked Questions ==
