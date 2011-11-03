@@ -18,7 +18,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 **Features:**
 
 * Create your own chat theme.
-* The chat can be accessed from anywhere, Laptop Smart phones and Tablets. Stay in contact with your community.
+* Chat from anywhere (Laptop Smart phones and Tablets). Stay in contact with your community.
 * Single sign-on lets users who already have a Facebook account to automatically login to the chat.
 * Let chatters share the talk on Facebook and Twitter.
 * Manage as many chats as you like, all in one account.
@@ -54,10 +54,10 @@ http://www.rumbletalk.com/rumbletalk-wordpress-chat-plugin.php
 
 
 == Screenshots ==
-1. An example of a chat skin/theme with bubbles chat.
+1. An example of a chat skin/theme with bubbles around the conversation.
 2. Another example of a chat skin/theme with a framed chat.
-3. Admin panel with various chats for different pages in your websites or different domains.
-4. Design panel that let you change your own chat.
+3. Admin panel with various chats. Use one account to manage all of your chats. It can be chats in different domains or chats in your websites on different pages. All in one place.
+4. Design panel - create your own chat theme or change an already existing one.
 
 
 
