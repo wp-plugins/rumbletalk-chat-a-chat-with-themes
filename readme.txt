@@ -50,7 +50,7 @@ need to switch to HTML view) in order to position the chat widget exactly where 
 
 Full instructions can be found:
 
-http://www.rumbletalk.com/rumbletalk-wordpress-chat-plugin.php
+http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Screenshots ==
