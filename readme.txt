@@ -56,10 +56,8 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Screenshots ==
-1. An example of a chat skin/theme with bubbles around the conversation.
-2. Another example of a chat skin/theme with a framed chat.
-3. Admin panel with various chats. Use one account to manage all of your chats. It can be chats in different domains or chats in your websites on different pages. All in one place.
-4. Design panel - create your own chat theme or change an already existing one.
+1. An example of a chat skin/theme with bubbles around the conversation and video and images posts.
+2. Another example of a chat skin/theme made by users.
 
 
 
