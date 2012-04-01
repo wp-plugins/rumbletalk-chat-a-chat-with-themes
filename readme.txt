@@ -58,6 +58,7 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 == Screenshots ==
 1. An example of a chat skin/theme with bubbles around the conversation and video and images posts.
 2. Another example of a chat skin/theme made by users.
+3. Another conversation.
 
 
 
