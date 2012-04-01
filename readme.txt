@@ -1,4 +1,4 @@
-=== Chat with your own theme, RumbleTalk ===
+=== HTML5 Stylish CHAT, RumbleTalk (FREE) ===
 Contributors: yanir
 Donate link:
 Tags: chat, discussion, widget, plugin, live, comments, forums
@@ -7,16 +7,18 @@ Tested up to: 2.1
 Stable tag: trank
 
 
-Add a chat with your own design theme to match your website look and feel
+FREE Social Chat to Boost Your Website and Blog with various chat themes and styles!
 
 
 == Description ==
 
-RumbleTalk chat plugin lets users choose their own chat theme from a variety of ready made themes and even allows website owners to design their own chat theme.
+RumbleTalk HTML5 chat plugin let website owners add a cool chat to their website. It is heavily integrated with facebook and twitter.
+A site owner can choose their own chat theme from a variety of ready made themes and even design their own theme.
 It is the fastest way to add a unique free and fully functional chat to your blog or website.
 
 **Features:**
 
+* Add the same chat to your facebook page http://www.rumbletalk.com/landing/1-fbfb-general/index-wordpress.html.
 * Create your own chat theme.
 * Chat from anywhere (Laptop Smart phones and Tablets). Stay in contact with your community.
 * Single sign-on lets users who already have a Facebook account to automatically login to the chat.
