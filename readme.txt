@@ -28,6 +28,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 * Users management. Control who can chat (ban, delete).
 * Control the access of your audience. Define moderators and rolls.
 * Archive your chat, Save log of your chat history (for premium version).
+* 20 languages support.
 
 
 == Installation ==
@@ -56,10 +57,11 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Screenshots ==
-1. An example of a chat skin/theme with bubbles around the conversation and video and images posts.
-2. Another example of a chat skin/theme made by users.
-3. Another conversation.
-
+1. An example of a chat skin/theme with bubbles around the conversation and video/images posts.
+2. Another example of a chat skin/theme made by RumbleTalk user.
+3. Football chat theme
+4. Game chat theme
+5. Music chat theme
 
 
 == Frequently Asked Questions ==
