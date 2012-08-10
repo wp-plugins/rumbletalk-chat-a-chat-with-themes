@@ -12,7 +12,7 @@ FREE Social Chat to Boost Your Website and Blog with various chat themes and sty
 
 == Description ==
 
-RumbleTalk HTML5 chat plugin lets website owners add an astonishing chat to their website or blog.
+RumbleTalk HTML5 chat plugin lets website owners add an astonishing chat for their website or blog.
 With Rumbletalk you can talk from your tablet, Smart Phone and PC. It is perfectly integrated with facebook and twitter.
 A site owner can choose their own chat theme from a variety of ready made themes and even design their own theme.
 It is the fastest way to add a unique free and fully functional chat to your blog or website.
