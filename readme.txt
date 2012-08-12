@@ -1,4 +1,4 @@
-=== HTML5 Stylish CHAT - FREE ===
+=== HTML5 Stylish CHAT ===
 Contributors: yanir
 Donate link:
 Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
@@ -7,12 +7,12 @@ Tested up to: 2.1
 Stable tag: trank
 
 
-FREE Social Chat to Boost Your Website and Blog with various chat themes and styles!
+FREE Social Chat to Boost Your Website and Blog!
 
 
 == Description ==
 
-One professional stylish chat to help you connect with your visitors and community - [Visit Site](http://www.rumbletalk.com) >> :
+Professional stylish chat to help you connect with your visitors and community - [Visit Site](http://www.rumbletalk.com) >> :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
 
@@ -25,7 +25,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 * Library of chat themes
 * Talk also from Mobile and Tablet.
 * Login, Share Invite using Facebook and Twitter.
-* One chat for your WP and facebook page - [Add to Facebook](http://www.rumbletalk.com/landing/1-fbfb-general/index-wordpress.html)
+* One chat for your WP and facebook page.
 * Design your own chat theme.
 * Single sign-on.
 * Manage as many chats as you like.
@@ -33,7 +33,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 * Ban, Delete Trolls.
 * Define moderators and rolls.
 * Archive your chat, Save log of your chat history.
-* 25 languages support.
+* In 25 languages.
 </pre>
 
 == Installation ==
