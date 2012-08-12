@@ -1,7 +1,7 @@
 === HTML5 Stylish CHAT, RumbleTalk (FREE) ===
 Contributors: yanir
 Donate link:
-Tags: chat, discussion, widget, plugin, live, comments, forums, chat widget
+Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 2.1
 Stable tag: trank
@@ -12,26 +12,31 @@ FREE Social Chat to Boost Your Website and Blog with various chat themes and sty
 
 == Description ==
 
-RumbleTalk HTML5 chat plugin lets website owners add an astonishing chat for their website or blog.
-With Rumbletalk you can talk from your tablet, Smart Phone and PC. It is perfectly integrated with facebook and twitter.
+One professional sylish chat to help you connect with your visitors - [Visit Site](http://www.rumbletalk.com/ “RumbleTalk Chat widget”) >> :
+Add a profChat with your visitors, add RumbleTalk chat plugin to your wordpress. 
+Post your videos, photo galleries/flash slideshows easily and in seconds.
+
+[youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
+
+It is perfectly integrated with facebook and twitter.
 A site owner can choose their own chat theme from a variety of ready made themes and even design their own theme.
 It is the fastest way to add a unique free and fully functional chat to your blog or website.
-See One Minute Video: http://www.youtube.com/watch?v=T9d7ZhUuJZg 
 
 **Features:**
-
-* Talk from your mobile and tablet as well as your pc.
-* Add the same chat to your facebook page http://www.rumbletalk.com/landing/1-fbfb-general/index-wordpress.html
-* Create your own chat theme.
-* Single sign-on lets users who already have a Facebook or twitter account to automatically login to the chat.
-* Let chatters share the talk on Facebook and Twitter.
-* Manage as many chats as you like, all in one account.
-* Spam filter (create a black listed words or sentences).
-* Users management. Control who can chat (ban, delete).
-* Control the access of your audience. Define moderators and rolls.
-* Archive your chat, Save log of your chat history (for premium version).
-* 23 languages support.
-
+<pre>
+* Library of chat themes
+* Talk also from Mobile and Tablet.
+* Login, Share Invite using Facebook and Twitter.
+* One chat for your WP and facebook page - [Add to Facebook](http://www.rumbletalk.com/landing/1-fbfb-general/index-wordpress.html “RumbleTalk Chat widget”)
+* Design your own chat theme.
+* Single sign-on.
+* Manage as many chats as you like.
+* Spam filter (create a black listed words).
+* Ban, Delete Trolls.
+* Define moderators and rolls.
+* Archive your chat, Save log of your chat history.
+* 25 languages support.
+</pre>
 
 == Installation ==
 
@@ -67,6 +72,10 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Frequently Asked Questions ==
+
+= Can i chat with my ipad or smart phone?  =
+
+Sure, you can add the chat to your website or blog and talk from anywhere.
 
 = Can i manage more than a single chat in my account?  =
 
