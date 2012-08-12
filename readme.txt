@@ -1,4 +1,4 @@
-=== HTML5 Stylish CHAT, RumbleTalk (FREE) ===
+=== HTML5 Stylish CHAT - FREE ===
 Contributors: yanir
 Donate link:
 Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
