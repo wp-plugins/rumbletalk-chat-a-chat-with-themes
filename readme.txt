@@ -12,14 +12,12 @@ FREE Social Chat to Boost Your Website and Blog with various chat themes and sty
 
 == Description ==
 
-One professional sylish chat to help you connect with your visitors - [Visit Site](http://www.rumbletalk.com) >> :
-Add a profChat with your visitors, add RumbleTalk chat plugin to your wordpress. 
-Post your videos, photo galleries/flash slideshows easily and in seconds.
+One professional stylish chat to help you connect with your visitors and community - [Visit Site](http://www.rumbletalk.com) >> :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
 
-It is perfectly integrated with facebook and twitter.
-A site owner can choose their own chat theme from a variety of ready made themes and even design their own theme.
+RumbleTalk is perfectly integrated with facebook and twitter.
+A site owner can choose their own chat theme from a variety of ready made themes and even design one.
 It is the fastest way to add a unique free and fully functional chat to your blog or website.
 
 
