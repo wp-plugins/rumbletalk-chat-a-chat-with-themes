@@ -23,8 +23,8 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 
 
 <pre>
-* Library of chat themes
-* Talk also from Mobile and Tablet.
+* Theme Library
+* Talk from Mobile and Tablet.
 * Login, Share Invite using Facebook and Twitter.
 * One chat for your WP and facebook page.
 * Design your own chat theme.
@@ -38,6 +38,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 </pre>
 
 
+![RumbleTalk chat themes](http://d1pfint8izqszg.cloudfront.net/images/mainpage/girl2.png)
 
 == Installation ==
 
