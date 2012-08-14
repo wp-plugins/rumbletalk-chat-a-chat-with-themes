@@ -3,7 +3,7 @@ Contributors: yanir
 Donate link:
 Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
-Tested up to: 2.1
+Tested up to: 3.4.1
 Stable tag: trank
 
 
@@ -12,7 +12,8 @@ FREE Social Chat to Boost Your Website and Blog!
 
 == Description ==
 
-Professional stylish chat to help you connect with your visitors and community - [Visit Site](http://www.rumbletalk.com) >> :
+Professional stylish **chat plugin** to connect you with your website visitors. 
+[Visit Site >>](http://www.rumbletalk.com) :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
 
@@ -35,6 +36,8 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 * Archive your chat, Save log of your chat history.
 * In 25 languages.
 </pre>
+
+
 
 == Installation ==
 
