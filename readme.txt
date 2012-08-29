@@ -34,7 +34,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 * Ban, Delete Trolls.
 * Define moderators and rolls.
 * Archive your chat, Save log of your chat history.
-* In 25 languages.
+* In 29 languages.
 </pre>
 
 
