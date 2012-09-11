@@ -1,4 +1,4 @@
-=== HTML5 Stylish CHAT ===
+﻿=== HTML5 Online CHAT Widget ===
 Contributors: yanir
 Donate link:
 Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
@@ -7,12 +7,12 @@ Tested up to: 3.4.1
 Stable tag: trank
 
 
-FREE Social Chat to Boost Your Website and Blog!
+FREE Social group Chat plugin with different chat skins for your Website and Blog!
 
 
 == Description ==
 
-Professional stylish **chat plugin** to connect you with your website visitors. 
+A hosted professional stylish **chat plugin** to connect you with your website visitors. 
 [Visit Site >>](http://www.rumbletalk.com) :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
@@ -26,15 +26,23 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 * Theme Library
 * Talk from Mobile and Tablet.
 * Login, Share Invite using Facebook and Twitter.
+* Private chat
 * One chat for your WP and facebook page.
 * Design your own chat theme.
+* Design your chat with css (for advanced users)
 * Single sign-on.
 * Manage as many chats as you like.
 * Spam filter (create a black listed words).
 * Ban, Delete Trolls.
 * Define moderators and rolls.
 * Archive your chat, Save log of your chat history.
-* In 29 languages.
+* Chat in 29 languages.
+</pre>
+
+<pre>
+Languages
+English, Español, Bahasa Indonesia, Català, Czech, Dansk sprog, Deutsch, Français, Italiano, Magyar, فارسی, Nederlands, Polski, 
+Português, Română, ภาษาไทย, Slovenčina, Suomi, Svenska, Tiếng Việt, Türkçe, ελληνικά, Български, Македонски, Русский язык, Србски, Українська, עברית , عربي
 </pre>
 
 
@@ -60,7 +68,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 need to switch to HTML view) in order to position the chat widget exactly where you need it.
 
 
-Full instructions can be found:
+Full instructions can be found here:
 
 http://www.rumbletalk.com/wordpress-chat-plugin.php
 
@@ -74,6 +82,20 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Frequently Asked Questions ==
+
+= My chat is too long/short on the screen?
+
+RumbleTalk chat is elastic chat. It means it will consume
+all the space around it. try to give exact width and height and see if that works for you.
+
+<pre>
+Example: 
+
+<div style="width: 100px; height: 200px;">
+<script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"></script>
+</div>
+
+</pre>
 
 = Can i chat with my ipad or smart phone?  =
 
