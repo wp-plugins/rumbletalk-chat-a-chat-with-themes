@@ -41,10 +41,11 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 
 <pre>
 **Languages**
-English, Español, Bahasa Indonesia, Català, Czech, Dansk sprog, Deutsch, Français, 
-Italiano, Magyar, فارسی, Nederlands, Polski, Português, Română, ภาษาไทย, Slovenčina
-Suomi, Svenska, Tiếng Việt, Türkçe, ελληνικά, Български, Македонски, 
-Русский язык, Србски, Українська, עברית , عربي
+English, Español, Bahasa Indonesia, Català, Czech, Dansk sprog
+Deutsch, Français, Italiano, Magyar, فارسی, Nederlands, Polski
+Português, Română, ภาษาไทย, Slovenčina, Suomi, Svenska, Tiếng Việt
+Türkçe, ελληνικά, Български, Македонски, Русский язык
+Србски, Українська, עברית , عربي
 </pre>
 
 
