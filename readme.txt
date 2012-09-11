@@ -40,9 +40,11 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 </pre>
 
 <pre>
-Languages
-English, Español, Bahasa Indonesia, Català, Czech, Dansk sprog, Deutsch, Français, Italiano, Magyar, فارسی, Nederlands, Polski, 
-Português, Română, ภาษาไทย, Slovenčina, Suomi, Svenska, Tiếng Việt, Türkçe, ελληνικά, Български, Македонски, Русский язык, Србски, Українська, עברית , عربي
+**Languages**
+English, Español, Bahasa Indonesia, Català, Czech, Dansk sprog, Deutsch, Français, 
+Italiano, Magyar, فارسی, Nederlands, Polski, Português, Română, ภาษาไทย, Slovenčina
+Suomi, Svenska, Tiếng Việt, Türkçe, ελληνικά, Български, Македонски, 
+Русский язык, Србски, Українська, עברית , عربي
 </pre>
 
 
@@ -91,9 +93,9 @@ all the space around it. try to give exact width and height and see if that work
 <pre>
 Example: 
 
-<div style="width: 100px; height: 200px;">
-<script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"></script>
-</div>
+&#60;div style="width: 100px; height: 200px;"&#62;
+&#60;script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"&#62;&#60;/script&#62;
+&#60;/div&#62;
 
 </pre>
 
