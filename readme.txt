@@ -85,19 +85,6 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 == Frequently Asked Questions ==
 
-= My chat is too long/short on the screen?
-
-RumbleTalk chat is elastic chat. It means it will consume
-all the space around it. try to give exact width and height and see if that works for you.
-
-<pre>
-Example: 
-
-&#60;div style="width: 100px; height: 200px;"&#62;
-&#60;script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"&#62;&#60;/script&#62;
-&#60;/div&#62;
-
-</pre>
 
 = Can i chat with my ipad or smart phone?  =
 
@@ -115,4 +102,18 @@ Only as facebook users, as anonymous users, with user names and passwords you de
 = Can I have different designs for different chats? =
 Yes you can, For each chat choose a design or create a design with our chat template builder.
 
+= My chat height is not good?
+
+RumbleTalk chat is elastic chat. It means it will consume
+all the space around it. try to give exact width and height and see if that works for you.
+use the source code in your editor to enter this code.
+
+<pre>
+Example: 
+
+&#60;div style="width: 100px; height: 200px;"&#62;
+&#60;script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"&#62;&#60;/script&#62;
+&#60;/div&#62;
+
+</pre>
  
