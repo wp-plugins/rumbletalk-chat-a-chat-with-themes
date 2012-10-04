@@ -42,7 +42,7 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 <pre>
 **Languages**
 English, Español, Bahasa Indonesia, Català, Czech, Dansk sprog
-Deutsch, Français, Italiano, Magyar, فارسی, Nederlands, Polski
+Deutsch, Français, Italiano, Magyar, فارسی, Nederlands, dutch, Polski
 Português, Română, ภาษาไทย, Slovenčina, Suomi, Svenska, Tiếng Việt
 Türkçe, ελληνικά, Български, Македонски, Русский язык
 Србски, Українська, עברית , عربي
@@ -106,8 +106,12 @@ Yes you can, For each chat choose a design or create a design with our chat temp
 = My chat height is not good?
 
 RumbleTalk chat is elastic chat. It means it will consume
-all the space around it. try to give exact width and height and see if that works for you.
-use the source code in your editor to enter this code.
+all the space around it. If that does not work try to use a direct embed (see next question how)
+
+= Can I use direct embed in an html page?
+ 
+Sure, you can go to Source of your page and copy paste a code that looks like that.
+Just replace the "chatcode" with your own 8 digit code.
 
 <pre>
 Example: 
@@ -115,6 +119,4 @@ Example:
 &#60;div style="width: 100px; height: 200px;"&#62;
 &#60;script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"&#62;&#60;/script&#62;
 &#60;/div&#62;
-
 </pre>
- 
