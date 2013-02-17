@@ -7,7 +7,7 @@ Tested up to: 3.4.1
 Stable tag: trank
 
 
-FREE Social group Chat plugin with different chat skins for your Website and Blog!
+Stylish Social group Chat plugin - FREE Trial!
 
 
 == Description ==
@@ -36,7 +36,8 @@ It is the fastest way to add a unique free and fully functional chat to your blo
 * Ban, Delete Trolls.
 * Define moderators and rolls.
 * Archive your chat, Save log of your chat history.
-* Chat in 29 languages.
+* Chat in 30 languages.
+* Offline Mode
 </pre>
 
 <pre>
