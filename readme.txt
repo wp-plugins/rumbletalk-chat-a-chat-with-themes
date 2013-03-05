@@ -37,6 +37,7 @@ It is the fastest way to add a unique fully functional chat to your blog or webs
 * Archive your chat, Save log of your chat history.
 * Chat in 30 languages.
 * Offline Mode
+* new - Delete single messages
 </pre>
 
 <pre>
