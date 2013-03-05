@@ -1,4 +1,4 @@
-﻿=== HTML5 Online CHAT Widget ===
+﻿=== HTML5 Online CHAT ROOM Widget ===
 Contributors: yanir
 Donate link:
 Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
