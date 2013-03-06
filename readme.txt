@@ -83,6 +83,7 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 3. Football chat theme
 4. Game chat theme
 5. Music chat theme
+6. Example of a floating chat that will open when clicked
 
 
 == Frequently Asked Questions ==
