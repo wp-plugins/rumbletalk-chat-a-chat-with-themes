@@ -105,7 +105,7 @@ Only as facebook users, as anonymous users, with user names and passwords you de
 = Can I have different designs for different chats? =
 Yes you can, For each chat choose a design or create a design with our chat template builder.
 
-= My chat height is not good?
+= My chat height is too small?
 
 RumbleTalk chat is elastic chat. It means it will consume
 all the space around it. If that does not work try to use a direct embed (see next question how)
@@ -122,3 +122,9 @@ Example:
 &#60;script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"&#62;&#60;/script&#62;
 &#60;/div&#62;
 </pre>
+
+
+= Can I delete signle messages?  =
+
+Sure, login as admin to the chat and see tray icon next to each message, clicking on it will delete the chat.
+
