@@ -105,12 +105,12 @@ Only as facebook users, as anonymous users, with user names and passwords you de
 = Can I have different designs for different chats? =
 Yes you can, For each chat choose a design or create a design with our chat template builder.
 
-= My chat height is too small?
+= My chat height is too small? =
 
 RumbleTalk chat is elastic chat. It means it will consume
 all the space around it. If that does not work try to use a direct embed (see next question how)
 
-= Can I use direct embed in an html page?
+= Can I use direct embed in an html page? =
  
 Sure, you can go to Source of your page and copy paste a code that looks like that.
 Just replace the "chatcode" with your own 8 digit code.
