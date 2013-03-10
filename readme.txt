@@ -3,7 +3,7 @@ Contributors: yanir
 Donate link:
 Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
-Tested up to: 3.4.1
+Tested up to: 3.5.1
 Stable tag: trank
 
 
@@ -80,7 +80,6 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 == Screenshots ==
 1. Chat with your website visitors and add videos and images to the conversation.
 2. Theme - new age theme, design your own chat theme in 1 minute.
-3. Theme - Music chat theme, find it in out library of themes.
 4. Theme - Art theme, give a stylish chat to your organization
 5. Theme - Control any aspect of the chat, fonts, borders, image backgrounds and much more.
 6. Mobile chat (Tablet & smart phones). A chat to go, keep talking on the road.
