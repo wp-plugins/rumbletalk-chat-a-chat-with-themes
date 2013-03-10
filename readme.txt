@@ -78,12 +78,13 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Screenshots ==
-1. An example of a chat skin/theme with bubbles around the conversation and video/images posts.
-2. Another example of a chat skin/theme made by RumbleTalk user.
-3. Football chat theme
-4. Game chat theme
-5. Music chat theme
-6. Example of a floating chat that will open when clicked
+1. Chat with your website visitors and add videos and images to the conversation.
+2. Theme - new age theme, design your own chat theme in 1 minute.
+3. Theme - Music chat theme, find it in out library of themes.
+4. Theme - Art theme, give a stylish chat to your organization
+5. Theme - Control any aspect of the chat, fonts, borders, image backgrounds and much more.
+6. Mobile chat (Tablet & smart phones). A chat to go, keep talking on the road.
+7. Floating chat - Example of a floating toolbar chat that will open when clicked. You can change this Icon to your liking.
 
 
 == Frequently Asked Questions ==
