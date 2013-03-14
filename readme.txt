@@ -50,7 +50,6 @@ Türkçe, ελληνικά, Български, Македонски, Русск
 </pre>
 
 
-![RumbleTalk chat themes](http://d1pfint8izqszg.cloudfront.net/images/mainpage/girl2.png)
 
 == Installation ==
 
