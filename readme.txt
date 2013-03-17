@@ -4,7 +4,7 @@ Donate link:
 Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.5.1
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 
 Boutique Social Chatroom plugin - FREE Trial!
