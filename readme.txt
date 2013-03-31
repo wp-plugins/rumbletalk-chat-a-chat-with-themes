@@ -9,7 +9,7 @@ Stable tag: 1.2.3
 
 Boutique Social Chatroom plugin - FREE Trial!
 
-== Description ==
+== Description == 
 
 A hosted professional stylish **chat plugin** to connect you with your website,blog or real-time event visitors.
 [Visit Site >>](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
@@ -38,6 +38,7 @@ It is the fastest way to add a unique fully functional chat to your blog or webs
 * Chat in 30 languages.
 * Offline Mode
 * new - Delete single messages
+* new - floot control 
 </pre>
 
 <pre>
@@ -50,7 +51,6 @@ Türkçe, ελληνικά, Български, Македонски, Русск
 </pre>
 
 
-![RumbleTalk chat themes](http://d1pfint8izqszg.cloudfront.net/images/mainpage/girl2.png)
 
 == Installation ==
 
