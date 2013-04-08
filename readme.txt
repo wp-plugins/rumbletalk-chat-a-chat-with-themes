@@ -27,6 +27,7 @@ It is the fastest way to add a unique fully functional chat to your blog or webs
 * Login, Share Invite using Facebook and Twitter.
 * Private chat
 * One chat for your WP and facebook page.
+* SSL- talk in a secure channel
 * Design your own chat theme.
 * Design your chat with css (for advanced users)
 * Single sign-on.
@@ -36,9 +37,9 @@ It is the fastest way to add a unique fully functional chat to your blog or webs
 * Define moderators and rolls.
 * Archive your chat, Save log of your chat history.
 * Chat in 30 languages.
-* Offline Mode
+* new - Offline Mode
 * new - Delete single messages
-* new - floot control 
+* new - flood control 
 </pre>
 
 <pre>
