@@ -22,6 +22,7 @@ It is the fastest way to add a unique fully functional chat to your blog or webs
 
 
 <pre>
+* Add the same website chat to your facebook page
 * Theme Library
 * Talk from Mobile and Tablet.
 * Login, Share Invite using Facebook and Twitter.
