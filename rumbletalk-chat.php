@@ -2,8 +2,8 @@
 /*
 Plugin Name: RumbleTalk Chat
 Plugin URI: http://www.rumbletalk.com/3rdsupport.php
-Description: Add a <strong>Free Group Chat Widget</strong> to your blog or site in under a minute
-Version: 1.2.2
+Description: Add a <strong>Boutique Chatroom Widget</strong> to your blog or site in under a minute
+Version: 1.3.1
 Author: Yanir Shahak
 Author URI: http://www.rumbletalk.com/contact_us.php
 License: GPL2
@@ -46,7 +46,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 			}
 			else
 			{
-				add_filter( "the_content", array( &$this, "embed" ) );
+				add_shortcode( 'rumbletalk-chat', array( &$this, "embed" ) );
 			}
 		}
 
@@ -141,7 +141,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 		<td  valign="top">
 
 			<div style="float:right; width:290px; border:1px #DEDEDD dashed; background-color:#FEFAE7; padding:10px 10px 10px 10px">
-				<b>Description:</b> The <a href="http://www.rumbletalk.com/?utm_source=wordpress&utm_medium=plugin&utm_campaign=fromplugin" target="_blank">RumbleTalk</a> Plugin is a boutique chat room Platform for websites, facebook pages and real-time events.<br />
+				<b>Description:</b> The <a href="http://www.rumbletalk.com/?utm_source=wordpress&utm_medium=plugin&utm_campaign=fromplugin" target="_blank">RumbleTalk</a> Plugin is a boutique chat room Platform for websites, facebook pages and real-time events. It is available for all Wordpress installed versions.<br />
 				<br />
 				<b>Like the plugin? "Like" RumbleTalk Chat!</b>
 				 <div id="fb-root"></div>
@@ -316,34 +316,34 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 <?
 		}
 
-		public function embed( $content )
+		public function embed( $attr )
 		{
-			$code = get_option( "rumbletalk_chat_code" );
+			$code = get_option( 'rumbletalk_chat_code' );
 
 			if ( empty( $code ) )
 			{
-				return;
+				return '';
 			}
 
-			$width  = get_option( "rumbletalk_chat_width"  );
-			$height = get_option( "rumbletalk_chat_height" );
-			$isw    = ( preg_match( "/^\d{1,4}%?$/", $width ) == 1 );
-			$ish    = ( preg_match( "/^\d{1,4}%?$/", $height ) == 1 );
-			$str    = "";
+			$width  = get_option( 'rumbletalk_chat_width'  );
+			$height = get_option( 'rumbletalk_chat_height' );
+			$isw    = ( preg_match( '/^\d{1,4}%?$/', $width ) == 1 );
+			$ish    = ( preg_match( '/^\d{1,4}%?$/', $height ) == 1 );
+			$str    = '';
 
 			if ( $isw || $ish )
 			{
-				$str = "<div style=\"" . ( $isw ? "width: {$width}px;" : "" ) . ( $ish ? "height: {$height}px;" : "" ) . "\">";
+				$str = '<div style="' . ( $isw ? "width: {$width}px;" : '' ) . ( $ish ? "height: {$height}px;" : '' ) . '">';
 			}
 
 			$str .= "<script type=\"text/javascript\" src=\"http://www.rumbletalk.com/client/?$code\"></script>";
 
 			if ( $isw || $ish )
 			{
-				$str .= "</div>";
+				$str .= '</div>';
 			}
 
-			return preg_replace( "/\[rumbletalk-chat\]/i", $str, $content );
+			return $str;
 		}
 
 		public function install()
