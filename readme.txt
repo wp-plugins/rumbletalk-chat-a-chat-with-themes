@@ -11,7 +11,7 @@ Boutique Social Chatroom plugin - FREE Trial!
 
 == Description == 
 
-A hosted professional stylish **chat plugin** to connect you with your website,blog or real-time event visitors.
+A hosted professional stylish **chat plugin** to connect you with your website,blog and real-time event visitors.
 [Visit Site >>](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
@@ -38,7 +38,7 @@ It is the fastest way to add a unique fully functional chat to your blog or webs
 * Define moderators and rolls.
 * Archive your chat, Save log of your chat history.
 * Chat in 30 languages.
-* new - Offline Mode
+* Offline Mode
 * new - Delete single messages
 * new - flood control 
 </pre>
