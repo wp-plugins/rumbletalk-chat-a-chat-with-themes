@@ -7,16 +7,16 @@ Tested up to: 3.5.1
 Stable tag: 1.3.1
 
 
-Boutique Social Chatroom plugin - FREE Trial!
+Boutique Social Chat Room plugin - FREE Trial!
 
 == Description == 
 
-A hosted professional stylish **chat plugin** to connect you with your website,blog and real-time event visitors.
+A hosted professional stylish **chat room plugin** to connect you with your website,blog and real-time event visitors.
 [Visit Site >>](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
 
-RumbleTalk is perfectly integrated with facebook and twitter.
+RumbleTalk chat room is perfectly integrated with facebook and twitter.
 A site owner can choose their own chat theme from a variety of ready made themes and even design one.
 It is the fastest way to add a unique fully functional chat to your blog or website.
 
