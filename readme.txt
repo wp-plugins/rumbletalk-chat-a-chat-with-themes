@@ -1,24 +1,26 @@
 ﻿=== HTML5 Online CHAT ROOM Widget ===
 Contributors: yanir
 Donate link:
-Tags: chat, discussion, html5, widget, plugin, live, comments, forums, chat widget
+Tags: chat, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.5.1
 Stable tag: 1.4.2
 
-
-Boutique Social Chat Room plugin - FREE Trial!
+Live Community Chat Room on your web site - FREE Trial!
 
 == Description == 
 
 A hosted professional stylish **chat room plugin** to connect you with your website,blog and real-time event visitors.
+
+
+Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, sports, weather web sites...and much more 
 [Visit Site >>](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
 
 RumbleTalk chat room is perfectly integrated with facebook and twitter.
-A site owner can choose their own chat theme from a variety of ready made themes and even design one.
-It is the fastest way to add a unique fully functional chat to your blog or website.
+A site owner can choose their own chat theme from a variety of ready made themes and even create their own theme.
+It is the fastest way to add a unique fully functional chatroom to any blog or website.
 
 
 <pre>
