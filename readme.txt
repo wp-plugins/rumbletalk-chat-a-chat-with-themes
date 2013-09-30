@@ -1,7 +1,7 @@
 ﻿=== HTML5 Online CHAT ROOM Widget ===
 Contributors: yanir
 Donate link:
-Tags: chat, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
+Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.5.1
 Stable tag: 1.4.2
