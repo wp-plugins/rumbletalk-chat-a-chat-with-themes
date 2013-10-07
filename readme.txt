@@ -3,10 +3,10 @@ Contributors: yanir
 Donate link:
 Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
-Tested up to: 3.5.1
-Stable tag: 1.4.2
+Tested up to: 3.6.1
+Stable tag: 2.1.0
 
-Live Community Chat Room on your web site - FREE Trial!
+Live Community Chat Room for your web site - FREE Trial!
 
 == Description == 
 
@@ -58,21 +58,20 @@ Türkçe, ελληνικά, Български, Македонски, Русск
 
 == Installation ==
 
-**First, Get your chat code:**
-
-1. Enter your email & choose a password at http://www.rumbletalk.com
-2. Then click on the "Get Chat Code" and get the code for wordpress.
-
-**Second, Install the Plugin:**
+**First, Install the Plugin:**
  
-3. Upload the rumbletalk-chat directory to the `/wp-content/plugins/` directory
-4. Activate the plugin through the 'Plugins' menu in WordPress
-5. Click 'Settings' and then 'RumbleTalk chat'
-6. Add a the chat code. (Optional - Enter the chat width and height e.g 400 x 300)
+1. Upload the rumbletalk-chat directory to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Click 'Settings' and then 'RumbleTalk chat'
+
+**Second, Get your chat code:**
+
+4. Enter your email & choose a password,verify and create account.
+ creation may take up to 20 seconds.
 
 **Add the chat to your chosen page:**
 
-7. Use the phrase '[rumbletalk-chat]' in your posts text (you can do it in visual mode, no 
+7. Use the phrase '[rumbletalk-chat]' in your posts (you can do it in visual mode, no 
 need to switch to HTML view) in order to position the chat widget exactly where you need it.
 
 
@@ -100,7 +99,7 @@ Sure, you can add the chat to your website or blog and talk from anywhere.
 = Can i manage more than a single chat in my account?  =
 
 Yes, RumbleTalk is group oriented. This means you define a group (logical name) and within a group you define as many 
-chats as you like. You can integrate it on different domains.
+chats as you like (premium feature). You can integrate it on different domains.
 
 = I want my users to login only with Facebook logins, is it possible? =
 Sure. As admin you can decide how users will login. 
