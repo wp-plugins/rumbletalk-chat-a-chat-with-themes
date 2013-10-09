@@ -13,7 +13,7 @@ Live Community Chat Room for your web site - FREE Trial!
 A hosted professional stylish **chat room plugin** to connect you with your website,blog and real-time event visitors.
 
 
-Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, sports, weather web sites...and much more 
+Ideal plugin for community, radio show, fans, stocks and forex trading, hobby, sports, weather web sites...and much more 
 [Visit Site >>](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
 
 [youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
