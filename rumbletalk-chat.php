@@ -3,7 +3,7 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/3rdsupport.php
   Description: Add a <strong>Boutique Chatroom Widget</strong> to your blog or site in under a minute
-  Version: 2.1.0
+  Version: 2.1.1
   Author: Yanir Shahak
   Author URI: http://www.rumbletalk.com/contact_us.php
   License: GPL2
@@ -513,7 +513,7 @@ class RumbleTalkChat {
 									<tr>
 										<td colspan="2" style="padding-left:5px;padding-top:10px;">
 
-											RumbleTalk chat is expand to any size. In some themes we see 2 possible issues.<br/>
+											RumbleTalk chat can be expanded to any size. In some special themes we see 2 possible issues.<br/>
 											1 - The height cannot be changed.<br/>
 											2 - Some elements in the page are missing (not shown).<br/><br/>
 
