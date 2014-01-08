@@ -2,13 +2,13 @@
 /*
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/3rdsupport.php
-  Description: Add a <strong>Boutique Chatroom Widget</strong> to your blog or site in under a minute
-  Version: 2.1.1
-  Author: Yanir Shahak
+  Description: An advanced stylish chatroom that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a service which runs on our server, so you do not need to worry that your hosting company will block your account.
+  Version: 3.1.1
+  Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com/contact_us.php
   License: GPL2
 
-  Copyright 2013 Yanir Shahak (email : yanir@rumbletalk.com)
+  Copyright 2014 RumbleTalk Ltd (email : support@rumbletalk.com)
 
   This program is free trial software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as

@@ -4,7 +4,7 @@ Donate link:
 Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.6.1
-Stable tag: 2.1.1
+Stable tag: 3.1.1
 
 Live Community Chat Room for your web site - FREE Trial!
 
@@ -130,4 +130,5 @@ Example:
 = Can I delete signle messages?  =
 
 Sure, login as admin to the chat and see tray icon next to each message, clicking on it will delete the chat.
+
 
