@@ -2,13 +2,13 @@
 /*
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/3rdsupport.php
-  Description: Add a <strong>Boutique Chatroom Widget</strong> to your blog or site in under a minute
-  Version: 2.1.1
-  Author: Yanir Shahak
+  Description: An advanced stylish chatroom that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a service which runs on our server, so you do not need to worry that your hosting company will block your account.
+  Version: 3.2.4
+  Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com/contact_us.php
   License: GPL2
 
-  Copyright 2013 Yanir Shahak (email : yanir@rumbletalk.com)
+  Copyright 2014 RumbleTalk Ltd (email : support@rumbletalk.com)
 
   This program is free trial software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
@@ -67,39 +67,15 @@ class RumbleTalkChat {
             <table>
                 <tr>
                     <td width="500" valign="top">
-                    	<iframe style="display:none;" name="target_frame" id="target_frame"></iframe>
                     	<script type="text/javascript">
-                    	var target_frame = document.getElementById('target_frame'),
-                    		create_form = document.getElementById("create_form");
+                    	var create_form = document.getElementById("create_form"),
+							wait_error;
 
-                    		//B4akfG9R
-						if ( document.addEventListener ) {
-							document.addEventListener('DOMContentLoaded', attach_event, false);
-						} else if ( window.addEventListener ) {
-							window.addEventListener('load', attach_event, false );
-						} else if ( document.attachEvent ) {
-							document.attachEvent("onreadystatechange", attach_event);
-						} else {
-							window.attachEvent("onload", attach_event);
-						}
-
-						function attach_event() {
-							if (target_frame.addEventListener)
-							{
-								target_frame.addEventListener("load", submit_in_frame, false);
-							}
-							else if (target_frame.attachEvent)
-							{
-								target_frame.attachEvent("onload", submit_in_frame);
-							}
-							else
-							{
-								target_frame.onload = submit_in_frame;
-							}
-						}
-
-						function submit_in_frame(){
-							var response = this.contentDocument.getElementsByTagName("body")[0].innerHTML;
+						function submit_in_frame(data)
+						{
+							clearTimeout( wait_error );
+							
+							var response = data.crID;
 							if (!isNaN(parseFloat(response)) && isFinite(response))
 							{
 								alert(error_message(response));
@@ -111,6 +87,9 @@ class RumbleTalkChat {
 								document.getElementById('rumbletalk_chat_code').value = response;
 								document.getElementById('options_form').submit();
 							}
+							
+							var jsonp = document.getElementById(data.id);
+							jsonp.parentNode.removeChild(jsonp);
 						}
 
 						function error_message( id )
@@ -133,6 +112,10 @@ class RumbleTalkChat {
 
 								case -7:
 									message = "Please retype the same password";
+									break;
+
+								case -11:
+									message = "The automatic creation has failed. Please create the account manually. You can find more details in the 'Troubleshooting' section";
 									break;
 
 								default:
@@ -179,6 +162,17 @@ class RumbleTalkChat {
 
 							document.getElementById( "create_chat_button" ).style.display = "none";
 							document.getElementById( "loading_gif" ).style.display = "inline";
+							
+							wait_error = setTimeout( 'error_message(-11);', 30000 );
+							
+							var jsonp = document.createElement("SCRIPT"),
+								d = new Date(),
+								t = d.getTime();
+							jsonp.id = 'rt-' + t;
+							jsonp.src = 'http://www.rumbletalk.com/_ajax_reg_remote.php?return_code=1&email=' + email.value + '&password=' + password.value + '&id=' + jsonp.id;
+							document.getElementsByTagName( 'head' )[ 0 ].appendChild( jsonp );
+							
+							return false;
 
 						}
 
@@ -215,7 +209,7 @@ class RumbleTalkChat {
 						}
 						</style>
                         <div style="width:500px;position;relative;">
-                        	<form method="post" action="http://www.rumbletalk.com/_ajax_reg_remote.php" onsubmit="return validate_account_creation( this );" target="target_frame" id="create_form"<?= get_option("rumbletalk_chat_code") == '' ? '' : ' style="display:none;"' ?>>
+                        	<form method="post" action="http://www.rumbletalk.com/_ajax_reg_remote.php" onsubmit="return validate_account_creation( this );" id="create_form"<?= get_option("rumbletalk_chat_code") == '' ? '' : ' style="display:none;"' ?>>
 	                        	<input type="hidden" name="return_code" value="1" />
 	                        	<table valign="top">
 									<tr>
@@ -513,7 +507,7 @@ class RumbleTalkChat {
 									<tr>
 										<td colspan="2" style="padding-left:5px;padding-top:10px;">
 
-											RumbleTalk chat can be expanded to any size. In some special themes we see 2 possible issues.<br/>
+											RumbleTalk chat is expand to any size. In some themes we see 2 possible issues.<br/>
 											1 - The height cannot be changed.<br/>
 											2 - Some elements in the page are missing (not shown).<br/><br/>
 
