@@ -118,6 +118,12 @@ all the space around it. If that does not work try to use a direct embed (see ne
 Sure, you can go to Source of your page and copy paste a code that looks like that.
 Just replace the "chatcode" with your own 8 digit code.
 
+= Is it FREE ? =
+ 
+RumbleTalk FREE Trial chat is limited to 7 days and we certainly won't sell your email address to spammers either, or anything like that. We do have various premium packages. 
+
+The FREE trial is limited to 4 simultaneous chatters. The RumbleTalk chat is AD FREE. The Premium version allows you to talk with more simultaneous chatters, have private chat, moderation rights, css editing, chat archiving and offline mode.
+
 <pre>
 Example: 
 
