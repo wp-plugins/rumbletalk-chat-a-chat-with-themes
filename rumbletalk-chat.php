@@ -8,7 +8,7 @@
   Author URI: http://www.rumbletalk.com/contact_us.php
   License: GPL2
 
-  Copyright 2014 RumbleTalk Ltd (email : support@rumbletalk.com)
+  Copyright 2014 RumbleTalk LTD (email : support@rumbletalk.com)
 
   This program is free trial software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
@@ -74,7 +74,7 @@ class RumbleTalkChat {
 						function submit_in_frame(data)
 						{
 							clearTimeout( wait_error );
-							
+
 							var response = data.crID;
 							if (!isNaN(parseFloat(response)) && isFinite(response))
 							{
@@ -87,7 +87,7 @@ class RumbleTalkChat {
 								document.getElementById('rumbletalk_chat_code').value = response;
 								document.getElementById('options_form').submit();
 							}
-							
+
 							var jsonp = document.getElementById(data.id);
 							jsonp.parentNode.removeChild(jsonp);
 						}
@@ -162,16 +162,16 @@ class RumbleTalkChat {
 
 							document.getElementById( "create_chat_button" ).style.display = "none";
 							document.getElementById( "loading_gif" ).style.display = "inline";
-							
+
 							wait_error = setTimeout( 'error_message(-11);', 30000 );
-							
+
 							var jsonp = document.createElement("SCRIPT"),
 								d = new Date(),
 								t = d.getTime();
 							jsonp.id = 'rt-' + t;
 							jsonp.src = 'http://www.rumbletalk.com/_ajax_reg_remote.php?return_code=1&email=' + email.value + '&password=' + password.value + '&id=' + jsonp.id;
 							document.getElementsByTagName( 'head' )[ 0 ].appendChild( jsonp );
-							
+
 							return false;
 
 						}
