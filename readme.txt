@@ -4,7 +4,7 @@ Donate link:
 Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.8
-Stable tag: 3.2.4
+Stable tag: 3.2.5
 
 Live Community Chat Room for your web site - FREE Trial!
 

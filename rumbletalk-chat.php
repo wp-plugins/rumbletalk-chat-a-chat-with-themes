@@ -3,12 +3,12 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/3rdsupport.php
   Description: An advanced stylish chatroom that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a service which runs on our server, so you do not need to worry that your hosting company will block your account.
-  Version: 3.2.4
+  Version: 3.2.5
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com/contact_us.php
   License: GPL2
 
-  Copyright 2014 RumbleTalk LTD (email : support@rumbletalk.com)
+  Copyright 2014 RumbleTalk Ltd (email : support@rumbletalk.com)
 
   This program is free trial software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as
@@ -550,7 +550,7 @@ class RumbleTalkChat {
                     <td  valign="top">
 
                         <div style="float:right; width:290px; border:1px #DEDEDD dashed; background-color:#FEFAE7; padding:10px 10px 10px 10px">
-                            With RumbleTalk you may create your own chat theme, share images and videos, talk from your mobile and even add the same chat installed on your website to your facebook page.
+                            With RumbleTalk you may create your own chat design (theme), share images and videos, talk from your mobile and even add the same chat installed on your website to your facebook page.
                             <br />
                             <br />
                             <a  target="_blank" href="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn1/555083_529814737068782_1413799779_n.png">
