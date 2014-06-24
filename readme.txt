@@ -4,7 +4,7 @@ Donate link:
 Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.8
-Stable tag: 3.2.5
+Stable tag: 3.2.6
 
 Live Community Chat Room for your web site - FREE Trial!
 
@@ -41,8 +41,9 @@ It is the fastest way to add a unique fully functional chatroom to any blog or w
 * Archive your chat, Save log of your chat history.
 * Chat in 30 languages.
 * Offline Mode
-* new - Delete single messages
-* new - flood control 
+* Delete single messages
+* Flood control 
+* new - advanced dashboard for managing your chatrooms
 </pre>
 
 <pre>
