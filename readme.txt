@@ -3,24 +3,25 @@ Contributors: yanir
 Donate link:
 Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
-Tested up to: 3.8
-Stable tag: 3.2.6
+Tested up to: 3.9.1
+Stable tag: 3.2.7
 
 Live Community Chat Room for your web site - FREE Trial!
 
 == Description == 
 
-A hosted professional stylish **chat room plugin** to connect you with your website,blog and real-time event visitors.
+285,000 websites are already using RumbleTalk Chat room, Join NOW! 
+RumbleTalk is a hosted professional **chat room plugin** to connect you with your website,blog and real-time event visitors.
 
 
 Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, sports, weather web sites...and much more 
 [Visit Site >>](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
 
-[youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
-
 RumbleTalk chat room is perfectly integrated with facebook and twitter.
 A site owner can choose their own chat theme from a variety of ready made themes and even create their own theme.
 It is the fastest way to add a unique fully functional chatroom to any blog or website.
+
+[youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
 
 
 <pre>
@@ -30,7 +31,7 @@ It is the fastest way to add a unique fully functional chatroom to any blog or w
 * Login, Share Invite using Facebook and Twitter.
 * Private chat
 * One chat for your WP and facebook page.
-* SSL- talk in a secure channel
+* Quick SSL - talk in a secure channel
 * Design your own chat theme.
 * Design your chat with css (for advanced users)
 * Single sign-on.
@@ -93,11 +94,11 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 == Frequently Asked Questions ==
 
 
-= Can i chat with my ipad or smart phone?  =
+= Can I chat with my ipad or smart phone?  =
 
 Sure, you can add the chat to your website or blog and talk from anywhere.
 
-= Can i manage more than a single chat in my account?  =
+= Can I manage more than a single chat in my account?  =
 
 Yes, RumbleTalk is group oriented. This means you define a group (logical name) and within a group you define as many 
 chats as you like (premium feature). You can integrate it on different domains.
@@ -134,7 +135,7 @@ Example:
 </pre>
 
 
-= Can I delete signle messages?  =
+= Can I delete single messages?  =
 
 Sure, login as admin to the chat and see tray icon next to each message, clicking on it will delete the chat.
 

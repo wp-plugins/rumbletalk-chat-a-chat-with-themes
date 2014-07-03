@@ -1,9 +1,9 @@
 <?php
 /*
   Plugin Name: RumbleTalk Chat
-  Plugin URI: http://www.rumbletalk.com/3rdsupport.php
-  Description: An advanced stylish chatroom that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a service which runs on our server, so you do not need to worry that your hosting company will block your account.
-  Version: 3.2.5
+  Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
+  Description: An advanced stylish group chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a service which runs on our server, so you do not need to worry that your hosting company will block your account.
+  Version: 3.2.7
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com/contact_us.php
   License: GPL2
