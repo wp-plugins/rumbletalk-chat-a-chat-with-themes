@@ -2,8 +2,8 @@
 /*
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
-  Description: An advanced stylish group chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a service which runs on our server, so you do not need to worry that your hosting company will block your account.
-  Version: 3.2.8
+  Description: An advanced stylish group chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
+  Version: 3.2.9
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com/contact_us.php
   License: GPL2
@@ -507,7 +507,7 @@ class RumbleTalkChat {
 									<tr>
 										<td colspan="2" style="padding-left:5px;padding-top:10px;">
 
-											RumbleTalk chat is expand to any size. In some themes we see 2 possible issues.<br/>
+											RumbleTalk chat room is elastic and can expand to any size. In some themes you might run into 2 possible issues.<br/>
 											1 - The height cannot be changed.<br/>
 											2 - Some elements in the page are missing (not shown).<br/><br/>
 

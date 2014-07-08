@@ -4,7 +4,7 @@ Donate link:
 Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.9.1
-Stable tag: 3.2.8
+Stable tag: 3.2.9
 
 Live Community Chat Room for your web site - FREE Trial!
 
@@ -84,13 +84,14 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Screenshots ==
-1. Chat with your website visitors and add videos and images to the conversation.
-2. Theme - new age theme, design your own chat theme in 1 minute.
-4. Theme - Art theme, give a stylish chat to your organization
-5. Theme - Control any aspect of the chat, fonts, borders, image backgrounds and much more.
-6. Mobile chat (Tablet & smart phones). A chat to go, keep talking on the road.
+1. Embed chat room example in a live stream event with 1 million visitors.
+2. Radio chat room designed by the website owner.
+3. Mobile chat (Tablet & smart phones). A chat to go, keep talking from anywhere.
+4. Engage - Add videos and images to the conversation.
+5. Theme - Art theme, give a stylish background to your chat room.
+6. Radio designed chat room for using CSS, advance designed feature for experts.
 7. Floating chat - Example of a floating toolbar chat that will open when clicked. You can change this Icon to your liking.
-
+8. Change the background of your chat based on the conversation subject. can be done on the fly.
 
 == Frequently Asked Questions ==
 
@@ -114,12 +115,21 @@ Yes you can, For each chat choose a design or create a design with our chat temp
 = My chat height is too small? =
 
 RumbleTalk chat is elastic chat. It means it will consume
-all the space around it. If that does not work try to use a direct embed (see next question how)
+all the space around it. If that does not work, try use a direct embed, meaning the code we supply for each chat (see next question how)
 
 = Can I use direct embed in an html page? =
  
-Sure, you can go to Source of your page and copy paste a code that looks like that.
-Just replace the "chatcode" with your own 8 digit code.
+Sure, you can go to TEXT of your page and copy paste a code that looks like that.
+Note: you will need to replace the "chatcode" text in this example below with your own 8 digit rumbletalk code.
+You can also play with the width and height figures.
+
+<pre>
+Example: 
+
+&#60;div style="width: 400px; height: 500px;"&#62;
+&#60;script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"&#62;&#60;/script&#62;
+&#60;/div&#62;
+</pre>
 
 = Is it FREE ? =
  
@@ -127,13 +137,6 @@ RumbleTalk FREE Trial chat is limited to 7 days and we certainly won't sell your
 
 The FREE trial is limited to 4 simultaneous chatters. The RumbleTalk chat is AD FREE. The Premium version allows you to talk with more simultaneous chatters, have private chat, moderation rights, css editing, chat archiving and offline mode.
 
-<pre>
-Example: 
-
-&#60;div style="width: 100px; height: 200px;"&#62;
-&#60;script language="JavaScript" type="text/javascript" src="http://www.rumbletalk.com/client/?chatcode"&#62;&#60;/script&#62;
-&#60;/div&#62;
-</pre>
 
 
 = Can I delete single messages?  =
