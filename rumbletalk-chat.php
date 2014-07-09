@@ -3,9 +3,9 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
   Description: An advanced stylish group chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
-  Version: 3.2.9
+  Version: 3.3.1
   Author: Rumbletalk Ltd
-  Author URI: http://www.rumbletalk.com/contact_us.php
+  Author URI: http://www.rumbletalk.com
   License: GPL2
 
   Copyright 2014 RumbleTalk Ltd (email : support@rumbletalk.com)
@@ -201,7 +201,7 @@ class RumbleTalkChat {
 						background-image:         linear-gradient(to bottom, #Da2424, #910909);
 						filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#Da2424', EndColorStr='#910909');
 						color: #fff;
-						font: bold 16px arial;
+						font: bold 15px arial;
 						font-weight: 700;
 						margin-left: 0px;
 						padding: 7px;
@@ -428,7 +428,7 @@ class RumbleTalkChat {
                                 </tr>
                                 <tr>
                                     <td align="center" valign="top" style="padding-top:15px;">
-                                         <a href="http://www.rumbletalk.com/admin/groups.php" class="upgrade_button">Upgrade your Chat Now!</a>
+                                         <a href="http://www.rumbletalk.com/admin/groups.php" class="upgrade_button">Upgrade your chat, Now!</a>
                                     </td>
                                 </tr>
      						</table>
