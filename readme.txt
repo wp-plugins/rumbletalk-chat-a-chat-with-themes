@@ -26,7 +26,8 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 
 
 <pre>
-* Add the same website chat to your facebook page
+* Add a chatroom to you website.
+* Add the same chatroom to your facebook page
 * Chatroom Theme Library
 * Talk from Mobile and Tablet.
 * Login, Share Invite using Facebook and Twitter.
