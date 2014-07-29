@@ -10,8 +10,9 @@ Live Community Chat Room for your web site - FREE Trial!
 
 == Description == 
 
-289,200 websites are already using RumbleTalk Chat room, Join NOW! 
-RumbleTalk is a hosted professional **chat room plugin** to connect you with your website,blog and real-time event visitors.
+289,300 websites are already using RumbleTalk Chat room, Join NOW! 
+RumbleTalk is a hosted professional **chat room plugin** to connect you with your website visitors.
+You may add it to any site, blog or real-time event. You may also add it to facebook.
 
 
 RumbleTalk chat room is perfectly integrated with facebook and twitter.
