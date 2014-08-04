@@ -3,7 +3,7 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
   Description: An advanced stylish group chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
-  Version: 3.3.1
+  Version: 3.4.1
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com
   License: GPL2
@@ -209,7 +209,7 @@ class RumbleTalkChat {
 						}
 						</style>
                         <div style="width:500px;position;relative;">
-                        	<form method="post" action="http://www.rumbletalk.com/_ajax_reg_remote.php" onsubmit="return validate_account_creation( this );" id="create_form"<?= get_option("rumbletalk_chat_code") == '' ? '' : ' style="display:none;"' ?>>
+                        	<form method="post" action="http://www.rumbletalk.com/_ajax_reg_remote.php" onsubmit="return validate_account_creation( this );" id="create_form"<?php echo get_option("rumbletalk_chat_code") == '' ? '' : ' style="display:none;"' ?>>
 	                        	<input type="hidden" name="return_code" value="1" />
 	                        	<table valign="top">
 									<tr>
@@ -259,10 +259,10 @@ class RumbleTalkChat {
                                     </tr>
 								</table>
                         	</form>
-                            <form method="post" action="options.php" id="options_form"<?= get_option("rumbletalk_chat_code") == '' ? ' style="display:none;"' : '' ?>>
+                            <form method="post" action="options.php" id="options_form"<?php echo get_option("rumbletalk_chat_code") == '' ? ' style="display:none;"' : '' ?>>
                                 <input type="hidden" name="action" value="update"/>
                                 <input type="hidden" name="page_options" value="rumbletalk_chat_code,rumbletalk_chat_width,rumbletalk_chat_height,rumbletalk_chat_floating"/>
-                                <? wp_nonce_field("update-options"); ?>
+                                <?php wp_nonce_field("update-options"); ?>
                                 <table valign="top">
 									<tr>
 										<td colspan="2" align="left"  style="padding-bottom:30px;"><img width="490" src="http://d1pfint8izqszg.cloudfront.net/emails/Mailxa-01.png" /></td>
@@ -331,7 +331,7 @@ class RumbleTalkChat {
 									</tr>
                                     <tr>
                                         <td width="120"><b>Chatroom code:</b></td>
-                                        <td><input type="text" name="rumbletalk_chat_code" id="rumbletalk_chat_code" value="<?= htmlspecialchars(get_option("rumbletalk_chat_code")); ?>" maxlength="8"/></td>
+                                        <td><input type="text" name="rumbletalk_chat_code" id="rumbletalk_chat_code" value="<?php echo htmlspecialchars(get_option("rumbletalk_chat_code")); ?>" maxlength="8"/></td>
 
                                     </tr>
                                     <tr>
@@ -344,7 +344,7 @@ class RumbleTalkChat {
                                     </tr>
                                     <tr id="chat_width">
                                         <td width="120" style="padding-top:30px;">Chatroom width:</td>
-                                        <td   style="padding-top:30px;"><input type="text" name="rumbletalk_chat_width" id="rumbletalk_chat_width" value="<?= htmlspecialchars(get_option("rumbletalk_chat_width")); ?>" maxlength="4"/></td>
+                                        <td   style="padding-top:30px;"><input type="text" name="rumbletalk_chat_width" id="rumbletalk_chat_width" value="<?php echo htmlspecialchars(get_option("rumbletalk_chat_width")); ?>" maxlength="4"/></td>
                                     </tr>
                                     <tr>
                                         <td></td>
@@ -357,7 +357,7 @@ class RumbleTalkChat {
                                     </tr>
                                     <tr id="chat_height">
                                         <td width="120">Chatroom height:</td>
-                                        <td><input type="text" name="rumbletalk_chat_height" id="rumbletalk_chat_height" value="<?= htmlspecialchars(get_option("rumbletalk_chat_height")); ?>" maxlength="4"/></td>
+                                        <td><input type="text" name="rumbletalk_chat_height" id="rumbletalk_chat_height" value="<?php echo htmlspecialchars(get_option("rumbletalk_chat_height")); ?>" maxlength="4"/></td>
                                     </tr>
                                     <tr>
                                         <td></td>
@@ -384,7 +384,7 @@ class RumbleTalkChat {
                                     </tr>
                                     <tr>
                                         <td colspan="2" style="padding-top:20px;">
-                                        <input type="submit" value="<? _e("Save Changes") ?>"/>
+                                        <input type="submit" value="<?php _e("Save Changes") ?>"/>
                                         <span style="padding-left:25px;"> <a href="http://www.rumbletalk.com/admin/groups.php">Advanced Settings<a/></span>
                                         </td>
                                     </tr>
@@ -493,7 +493,7 @@ class RumbleTalkChat {
             <table>
                 <tr>
                     <td width="500" valign="top">
-                    	<div id="options_troubleshooting"<?= get_option("rumbletalk_chat_code") == '' ? ' style="display:none;"' : '' ?>>
+                    	<div id="options_troubleshooting"<?php echo get_option("rumbletalk_chat_code") == '' ? ' style="display:none;"' : '' ?>>
 							<div style="width:500px;">
 								<table>
 									<tr>
@@ -589,7 +589,7 @@ class RumbleTalkChat {
 
 
         </div>
-        <?
+        <?php
     }
 
     public function embed($attr) {
