@@ -1,25 +1,25 @@
 ﻿=== HTML5 Online CHAT ROOM Widget ===
 Contributors: yanir
 Donate link:
-Tags: chat, chatroom, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
+Tags: chat, chatroom, group, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 3.9.1
 Stable tag: 3.4.1
 
-Live Community Chat Room for your web site - FREE Trial!
+Live group Chat Room for your web site - FREE Trial!
 
 == Description == 
 
 290,000 websites are already using RumbleTalk Chat room, Join NOW! 
-RumbleTalk is a hosted professional **chat room plugin** to connect you with your website visitors.
+RumbleTalk is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
 
 
-RumbleTalk chat room is perfectly integrated with facebook and twitter.
+RumbleTalk group chat room is perfectly integrated with facebook and twitter.
 A site owner can choose their own chat theme from a variety of ready made themes and even create their own theme.
 It is the fastest way to add a unique fully functional chatroom to any blog or website.
 
-Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, sports, weather web sites...and much more 
+Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, sports, group discussions...and much more 
 [Visit Site:](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
 
 
@@ -27,18 +27,16 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 
 
 <pre>
-* Embed a chat room in your site.
-* Add the same chatroom to your facebook page
+* Easily Embed a group chat in your site.
+* Use the same chatroom in your facebook page
 * Chatroom Theme Library
 * Talk from Mobile and Tablet.
 * Login, Share Invite using Facebook and Twitter.
 * Private chat
-* One chat for your WP and facebook page.
 * Quick SSL - talk in a secure channel
 * Design your own chat theme.
 * Design your chat with css (for advanced users)
-* Single sign-on.
-* Manage as many chats as you like.
+* Manage more than one chat.
 * Spam filter (create a black listed words).
 * Ban, Delete Trolls.
 * Define moderators and rolls.
@@ -47,7 +45,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 * Offline Mode
 * Delete single messages
 * Flood control 
-* new - advanced dashboard for managing your chatrooms
+* Advanced dashboard for managing your chatrooms
 </pre>
 
 <pre>
@@ -97,6 +95,9 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 == Frequently Asked Questions ==
 
+= What type of chat is it?  =
+
+RumbleTalk is a group chat for websites where one can talk to his community and wesbite visitors.
 
 = Can I chat with my ipad or smart phone?  =
 
