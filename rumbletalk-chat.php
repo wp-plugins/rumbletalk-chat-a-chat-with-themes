@@ -3,7 +3,7 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
   Description: An advanced stylish group chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
-  Version: 3.4.2
+  Version: 3.4.3
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com
   License: GPL2
@@ -377,8 +377,8 @@ class RumbleTalkChat {
                                         <td></td>
                                         <td>
                                             <span style="font:arial 8px none; color:#AAACAD">
-                                                Check it if you wish to add to your webpage a floating chat
-                                                which is a toolbar like chat on your right bottom corner.
+                                                Check it if you wish to add to your web page a floating chat
+                                                which is a toolbar like chat (Facebook style) on your right bottom corner.
                                             </span>
                                         </td>
                                     </tr>
@@ -454,16 +454,16 @@ class RumbleTalkChat {
 											<li>* One chat for your WP and facebook page</li>
 											<li>* SSL- talk in a secure channel</li>
 											<li>* Design your own chat theme</li>
-											<li>* Design your chat with css (for advanced users)</li>
+											<li>* Advance design with css </li>
 											<li>* Manage as many chats as you like</li>
 											<li>* Spam filter (create a black listed words)</li>
 											<li>* Ban, Delete Trolls</li>
 											<li>* Define moderators and rolls</li>
 											<li>* Archive your chat, Save log of your chat history</li>
 											<li>* Chat in 30 languages</li>
-											<li>* Offline Mode</li>
+											<li>* Offline Mode (when you are not around)</li>
 											<li>* Delete single messages</li>
-											<li>* Flood control </li>
+											<li>* Flood control</li>
 										</ul>
 									</td>
 								</td>
