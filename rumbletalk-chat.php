@@ -222,7 +222,7 @@ class RumbleTalkChat {
 									</tr>
 									<tr>
 										<td colspan="2" style="padding-bottom:15px;">
-											Add RumbleTalk chatroom to your website, blog in one minute.<br/><br/>
+											Add RumbleTalk chat-room to your website, blog in one minute.<br/><br/>
 											1 - Enter your email and preferred password.<br/>
 											2 - Click the create button. It takes up to 15 seconds and than your account is ready.<br/>
 											3 - Now, add the exact text <b style="font:arial 8px none; color:#68A500"> [rumbletalk-chat] </b>to your visual editor where you want your chat to show.
