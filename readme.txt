@@ -4,13 +4,13 @@ Donate link:
 Tags: chat, chatroom, group, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 4.0
-Stable tag: 3.4.3
+Stable tag: 3.4.4
 
 Live group Chat Room for your web site - FREE Trial!
 
 == Description == 
 
-301,000 websites are already using RumbleTalk Chat room, Join NOW! 
+303,400 websites are already using RumbleTalk Chat room, Join NOW! 
 RumbleTalk is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
 
@@ -46,6 +46,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 * Delete single messages
 * Flood control 
 * Advanced dashboard for managing your chatrooms
+* Option to send audio and video messages (paid only)
 </pre>
 
 <pre>
