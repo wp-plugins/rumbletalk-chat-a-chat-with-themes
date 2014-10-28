@@ -47,6 +47,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 * Flood control 
 * Advanced dashboard for managing your chatrooms
 * Option to send audio and video messages (paid only)
+* NEW - set your sound for different types of operations
 </pre>
 
 <pre>
