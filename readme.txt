@@ -10,7 +10,7 @@ Live group Chat Room for your web site - FREE Trial!
 
 == Description == 
 
-314,520 websites are already using RumbleTalk Chat room, Join NOW! 
+316,520 websites are already using RumbleTalk Chat room, Join NOW! 
 RumbleTalk is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
 
