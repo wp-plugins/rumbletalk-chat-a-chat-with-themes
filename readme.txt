@@ -4,7 +4,7 @@ Donate link:
 Tags: chat, chatroom, group, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
 Requires at least: 2.0.2
 Tested up to: 4.1
-Stable tag: 3.4.8
+Stable tag: 3.4.9
 
 Live group Chat Room for your web site - FREE Trial!
 
@@ -50,6 +50,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 * Set your sound for different types of operations
 * NEW - Upload Docs, Excel, PowerPoint, PDF files
 * NEW - Upload Images from your own PC
+* NEW - Take pictures from your PC camera
 </pre>
 
 <pre>
@@ -88,7 +89,7 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Screenshots ==
-1. Embed chat room example in a live stream event with 1 million visitors.
+1. The most advanced chat room for groups with over than 340,000 installations.
 2. Radio chat room designed by the website owner.
 3. Mobile chat (Tablet & smart phones). A chat to go, keep talking from anywhere.
 4. Engage - Add videos and images to the conversation.
