@@ -50,6 +50,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 * Set your sound for different types of operations
 * NEW - Upload Docs, Excel, PowerPoint, PDF files
 * NEW - Upload Images from your own PC
+* NEW - Take pictures from your PC camera
 </pre>
 
 <pre>
