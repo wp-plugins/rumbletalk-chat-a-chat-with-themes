@@ -2,8 +2,8 @@
 /*
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
-  Description: An advanced stylish group chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
-  Version: 3.4.9
+  Description: An advanced stylish community chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
+  Version: 3.5.0
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com
   License: GPL2
@@ -224,7 +224,7 @@ class RumbleTalkChat {
 										<td colspan="2" style="padding-bottom:15px;">
 											Add RumbleTalk chat-room to your website, blog in one minute.<br/><br/>
 											1 - Enter your email and preferred password.<br/>
-											2 - Click the create button. It takes up to 15 seconds and than your account is ready.<br/>
+											2 - Click on the create button. It takes up to 15 seconds and than your account is ready.<br/>
 											3 - Now, add the exact text <b style="font:arial 8px none; color:#68A500"> [rumbletalk-chat] </b>to your visual editor where you want your chat to show.
 										</td>
 									</tr>
@@ -323,7 +323,7 @@ class RumbleTalkChat {
 												  </td>
 												  <td style="padding-left:5px;">
 													  Add the text <b style="font:arial 8px none; color:#68A500">&#91;rumbletalk-chat&#93; </b>
-													  <br/>to your visual editor where you want your chat to show.....Your done.
+													  <br/>to your visual editor where you want your chat to show.....and your done.
 												  </td>
 											  </tr>
 										 </table>
