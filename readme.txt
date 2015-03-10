@@ -6,7 +6,7 @@ Requires at least: 2.0.2
 Tested up to: 4.1.1
 Stable tag: 3.5.0
 
-Hosted Live group Chat Room for your web site with over than 350,000 chat rooms created.
+Hosted Live group Chat Room for your web site with over than 350,000 chat rooms created. Upload images, files, take photos..and much more
 
 == Description == 
 
