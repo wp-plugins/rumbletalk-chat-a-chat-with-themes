@@ -8,7 +8,7 @@ Stable tag: 3.5.0
 
 Hosted Live group Chat Room for your web site with over than 350,000 chat rooms created. Upload images, files, take photos..and much more
 
-== Description == 
+== Description ==  
 
 350,180 websites are already using RumbleTalk Chat room, Join NOW! 
 RumbleTalk is a hosted professional **chat room plugin** to connect you with your web site visitors.
