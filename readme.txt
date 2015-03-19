@@ -6,11 +6,11 @@ Requires at least: 2.0.2
 Tested up to: 4.1.1
 Stable tag: 3.5.0 
 
-Hosted Live group Chat Room for your web site with over than 350,000 chat rooms created. Upload images, files, take photos..and much more
+Hosted Live group Chat Room for your wordpress web site with over than 352,000 chat rooms created. Upload images, files, take photos..and much more
 
 == Description == 
 
-350,180 websites are already using RumbleTalk Chat room, Join NOW! 
+352,280 websites are already using RumbleTalk Chat room, Join NOW! 
 RumbleTalk is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
 
