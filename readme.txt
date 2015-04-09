@@ -1,12 +1,12 @@
 ﻿=== HTML5 Online CHAT ROOM Widget ===
-Contributors: yanir
+Contributors: RumbleTalk Chat
 Donate link:
-Tags: chat, chatroom, group, community, discussion, html5, widget, plugin, live, comments, forums, chat widget
+Tags: group chat, chat, chatroom, chat room, community chat, social chat, discussion chat, team chat, html5 chat, chatroom widget, chat plugin, live chat,
 Requires at least: 2.0.2
 Tested up to: 4.1.1
-Stable tag: 3.5.0 
+Stable tag: 3.5.1 
 
-Hosted Live group Chat Room for your wordpress web site with over than 352,000 chat rooms created. Upload images, files, take photos..and much more
+Hosted Live group Chat Room for your wordpress web site with over than 353,000 chat rooms created. Upload images, files, take photos..and much more
 
 == Description == 
 
