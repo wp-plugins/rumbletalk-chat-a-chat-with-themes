@@ -3,7 +3,7 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
   Description: An advanced stylish community chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
-  Version: 3.5.1
+  Version: 3.5.2
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com
   License: GPL2
@@ -412,7 +412,7 @@ class RumbleTalkChat {
                                         return;
                                     js = d.createElement(s);
                                     js.id = id;
-                                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=181184391902159";
+                                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=181184391902159";
                                     fjs.parentNode.insertBefore(js, fjs);
                                 }(document, 'script', 'facebook-jssdk'));</script>
                             <div class="fb-like" data-href="https://www.facebook.com/rumbletalk" data-send="true" data-width="280" data-show-faces="true" data-font="arial"></div>

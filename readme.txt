@@ -3,8 +3,8 @@ Contributors: RumbleTalk Chat
 Donate link:
 Tags: group chat, chat, chatroom, chat room, community chat, social chat, discussion chat, team chat, html5 chat, chatroom widget, chat plugin, live chat,
 Requires at least: 2.0.2
-Tested up to: 4.1.1
-Stable tag: 3.5.1 
+Tested up to: 4.2.1
+Stable tag: 3.5.2 
 
 Hosted Live group Chat Room for your wordpress web site with over than 353,000 chat rooms created. Upload images, files, take photos..and much more
 
