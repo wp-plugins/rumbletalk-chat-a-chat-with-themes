@@ -1,7 +1,7 @@
 ﻿=== HTML5 Online CHAT ROOM Widget ===
 Contributors: RumbleTalk Chat
 Donate link:
-Tags: group chat, chat, chatroom, chat room, community chat, social chat, discussion chat, team chat, html5 chat, chatroom widget, chat plugin, live chat,
+Tags: group chat, chat, chatroom, chat room, community chat, video chat, social chat, discussion chat, team chat, html5 chat, chatroom widget, chat plugin, live chat,
 Requires at least: 2.0.2
 Tested up to: 4.2.1
 Stable tag: 3.5.2 
@@ -10,8 +10,9 @@ Hosted Live group Chat Room for your wordpress web site with over than 353,000 c
 
 == Description == 
 
-352,280 websites are already using RumbleTalk Chat room, Join NOW! 
-RumbleTalk is a hosted professional **chat room plugin** to connect you with your web site visitors.
+383,218 websites are already using RumbleTalk Chat room, Join NOW!
+ 
+RumbleTalk is a combination of online group chat and private video and audio talk. It is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
 
 
@@ -23,7 +24,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 [Visit Site:](http://www.rumbletalk.com/?utm_source=Wordpress&utm_medium=site&utm_campaign=Wordpress) :
 
 
-[youtube http://www.youtube.com/watch?v=T9d7ZhUuJZg]
+[youtube https://www.youtube.com/watch?v=M2h8UyjzuJU]
 
 
 <pre>
@@ -47,10 +48,11 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 * Flood control 
 * Advanced dashboard for managing your chatrooms
 * Send audio and video messages
-* Set your sound for different types of operations
+* Set your own sound for different types of operations
 * NEW - Upload Docs, Excel, PowerPoint, PDF files
 * NEW - Upload Images from your own PC
 * NEW - Take pictures from your PC camera
+* NEW - One on One VIDEO and Audio chat
 </pre>
 
 <pre>
