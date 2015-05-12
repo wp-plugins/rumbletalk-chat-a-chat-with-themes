@@ -4,7 +4,7 @@ Donate link:
 Tags: group chat, chat, chatroom, chat room, community chat, video chat, social chat, discussion chat, team chat, html5 chat, chatroom widget, chat plugin, live chat,
 Requires at least: 2.0.2
 Tested up to: 4.2.1
-Stable tag: 3.5.2 
+Stable tag: 3.5.3 
 
 Hosted Live group Chat Room for your wordpress web site with over than 387,000 chat rooms created. Share Files, Upload images, video chat..and much more
 
