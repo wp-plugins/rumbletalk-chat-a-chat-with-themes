@@ -6,11 +6,11 @@ Requires at least: 2.0.2
 Tested up to: 4.2.1
 Stable tag: 3.5.3 
 
-Hosted Live group Chat Room for your wordpress web site with over than 387,000 chat rooms created. Share Files, Upload images, video chat..and much more
+Hosted Live group Chat Room for your wordpress web site with over than 388,000 chat rooms created. Share Files, Upload images, video chat..and much more
 
 == Description == 
 
-387,122 websites are already using RumbleTalk Chat room, Join NOW!
+387,122 websites are already using <a href="http://www.rumbletalk.com/">RumbleTalk</a> Chat room, Join NOW!
  
 RumbleTalk is a combination of live group chat with private video and audio calls. It is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
@@ -28,6 +28,10 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 
 
 <pre>
+* NEW - One on One VIDEO and Audio calls
+* NEW - Upload Docs, Excel, PowerPoint, PDF files
+* NEW - Upload Images from your own PC
+* NEW - Take pictures from your PC camera
 * Easily Embed a group chat in your site.
 * Use the same chatroom in your facebook page
 * Chatroom Theme Library
@@ -49,10 +53,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 * Advanced dashboard for managing your chatrooms
 * Send audio and video messages
 * Set your own sound for different types of operations
-* NEW - Upload Docs, Excel, PowerPoint, PDF files
-* NEW - Upload Images from your own PC
-* NEW - Take pictures from your PC camera
-* NEW - One on One VIDEO and Audio calls
+
 </pre>
 
 <pre>
@@ -91,12 +92,12 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 
 
 == Screenshots ==
-1. The most advanced chat room for groups with over than 340,000 installations.
+1. The most advanced chat room for groups with over than 388,000 installations.
 2. Radio chat room designed by the website owner.
 3. Mobile chat (Tablet & smart phones). A chat to go, keep talking from anywhere.
 4. Engage - Add videos and images to the conversation.
 5. Theme - Art theme, give a stylish background to your chat room.
-6. Radio designed chat room for using CSS, advance designed feature for experts.
+6. Radio designed chat room with advance designed feature for experts (CSS Tips).
 7. Floating chat - Example of a floating toolbar chat that will open when clicked. You can change this Icon to your liking.
 8. Change the background of your chat based on the conversation subject. can be done on the fly.
 
@@ -117,7 +118,7 @@ chats as you like (premium feature). You can integrate it on different domains.
 
 = I want my users to login only with Facebook logins, is it possible? =
 Sure. As admin you can decide how users will login. 
-Only as facebook users, as anonymous users, with user names and passwords you define for them or any combination of the 3. 
+Only as facebook users, as anonymous users (guests), with user names and passwords you define for them or any combination of the 3. 
 
 = Can I have different designs for different chats? =
 Yes you can, For each chat choose a design or create a design with our chat template builder.
