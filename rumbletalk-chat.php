@@ -3,7 +3,7 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
   Description: An advanced stylish community chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
-  Version: 3.5.3
+  Version: 3.5.4
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com
   License: GPL2
@@ -107,7 +107,7 @@ class RumbleTalkChat {
 									break;
 
 								case -3:
-									message = "The email address already exists in the system";
+									message = "The email address already exists";
 									break;
 
 								case -7:

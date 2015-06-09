@@ -4,13 +4,13 @@ Donate link:
 Tags: group chat, chat, chatroom, chat room, community chat, video chat, social chat, discussion chat, team chat, html5 chat, chatroom widget, chat plugin, live chat,
 Requires at least: 2.0.2
 Tested up to: 4.2.1
-Stable tag: 3.5.3 
+Stable tag: 3.5.4 
 
 Hosted Live group Chat Room for your wordpress web site with over than 388,000 chat rooms created. Share Files, Upload images, video chat..and much more
 
 == Description == 
 
-395,801 websites are already using <a href="http://www.rumbletalk.com/">RumbleTalk</a> Chat room, Join NOW!
+399,101 websites are already using <a href="http://www.rumbletalk.com/">RumbleTalk</a> Chat room, Join NOW!
  
 RumbleTalk is a combination of live group chat with private video and audio calls. It is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
@@ -102,6 +102,7 @@ http://www.rumbletalk.com/wordpress-chat-plugin.php
 6. Radio designed chat room with advance designed feature for experts (CSS Tips).
 7. Floating chat - Example of a floating toolbar chat that will open when clicked. You can change this Icon to your liking.
 8. Change the background of your chat based on the conversation subject. can be done on the fly.
+9. Mobile group chat view. Open the chat from anywhere using your mobile or tablet.
 
 == Frequently Asked Questions ==
 
