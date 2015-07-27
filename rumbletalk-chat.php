@@ -3,7 +3,7 @@
   Plugin Name: RumbleTalk Chat
   Plugin URI: http://www.rumbletalk.com/wordpress-chat-plugin.php
   Description: An advanced stylish community chat room that can be accessed from web and mobile. This is the only chatroom that let you design your own style. The chatroom is a hosted service, so you do not need to worry that your hosting company will block your account.
-  Version: 3.5.5
+  Version: 4.0.1
   Author: Rumbletalk Ltd
   Author URI: http://www.rumbletalk.com
   License: GPL2
@@ -34,7 +34,8 @@ class RumbleTalkChat {
             "rumbletalk_chat_code",
             "rumbletalk_chat_width",
             "rumbletalk_chat_height",
-            "rumbletalk_chat_floating"
+            "rumbletalk_chat_floating",
+			 "rumbletalk_chat_member"
         );
 
         register_activation_hook(__FILE__, array(&$this, "install"));
@@ -44,6 +45,31 @@ class RumbleTalkChat {
             add_action("admin_menu", array(&$this, "adminMenu"));
         } else {
             add_shortcode('rumbletalk-chat', array(&$this, "embed"));
+			
+			add_action('wp_head','hook_javascript');
+
+function hook_javascript() {
+  $member = get_option('rumbletalk_chat_member');
+        $code = get_option('rumbletalk_chat_code');
+		$current_user = wp_get_current_user();
+ 
+		$username=  $current_user->display_name;
+ 
+	if( !empty($code)&& !empty($member)&& !empty($username)) {
+	$output='<script src="http://d1pfint8izqszg.cloudfront.net/api/sdk.js"></script>
+<script>
+window.onload = function () {
+    RT.init({hash: \''.$code.'\'});
+    RT.login({
+        username: \''.$username.'\'  
+		 
+    });
+};
+</script>';
+
+	echo $output;
+	}
+}
         }
     }
 
@@ -261,7 +287,7 @@ class RumbleTalkChat {
                         	</form>
                             <form method="post" action="options.php" id="options_form"<?php echo get_option("rumbletalk_chat_code") == '' ? ' style="display:none;"' : '' ?>>
                                 <input type="hidden" name="action" value="update"/>
-                                <input type="hidden" name="page_options" value="rumbletalk_chat_code,rumbletalk_chat_width,rumbletalk_chat_height,rumbletalk_chat_floating"/>
+                                <input type="hidden" name="page_options" value="rumbletalk_chat_code,rumbletalk_chat_width,rumbletalk_chat_height,rumbletalk_chat_floating,rumbletalk_chat_member"/>
                                 <?php wp_nonce_field("update-options"); ?>
                                 <table valign="top">
 									<tr>
@@ -283,10 +309,10 @@ class RumbleTalkChat {
 										   <table width="100%">
 										     <tr>
 										       <td align="left"  style="padding-left:10px;">
-										           <img width="95px" src="http://d1pfint8izqszg.cloudfront.net/images/fe-access.png" />
+										           <img width="95px" src="http://d1pfint8izqszg.cloudfront.net/blog/floatembed/180x120-01.jpg" />
 										       </td>
 										       <td align="left" style="padding-top:10px;padding-left:20px;">
-										           <img width="95px" src="http://d1pfint8izqszg.cloudfront.net/images/toolbar/toolbar.png" />
+										           <img width="95px" src="http://d1pfint8izqszg.cloudfront.net/blog/floatembed/180x120-02.jpg" />
 										       </td>
 										     <tr>
 										     <tr>
@@ -370,9 +396,10 @@ class RumbleTalkChat {
                                     </tr>
                                     <tr>
                                         <td width="120">Floating chat:</td>
-                                        <?php $rumbletalk_chat_floating = get_option("rumbletalk_chat_floating");?>
+                                        <?php  $rumbletalk_chat_floating = get_option("rumbletalk_chat_floating");?>
                                         <td><input type="checkbox" onchange="float_check_box( this );"  name="rumbletalk_chat_floating" id="rumbletalk_chat_floating" <?php echo (!empty($rumbletalk_chat_floating)) ? ('checked') : (''); ?> /></td>
                                     </tr>
+                                    
                                     <tr>
                                         <td></td>
                                         <td>
@@ -383,13 +410,33 @@ class RumbleTalkChat {
                                         </td>
                                     </tr>
                                     <tr>
+                                        <td width="120">
+										  <b style="font:arial 8px none; color:#68A500">Advance Option</b><br>
+										</td>
+										<td></td>
+                                    </tr>									
+                                    <tr>
+                                        <td width="120">Use Member only :</td>
+                                        <?php $rumbletalk_chat_member = get_option("rumbletalk_chat_member");?>
+                                        <td><input type="checkbox"   name="rumbletalk_chat_member" id="rumbletalk_chat_member" <?php echo (!empty($rumbletalk_chat_member)) ? ('checked') : (''); ?> /></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <span style="font:arial 8px none; color:#AAACAD">
+                                                Make your chat private. Allow only registered users to login. 
+												Users will not be able to login as guest, facebook or twitter.
+                                            </span>
+                                        </td>
+                                    </tr>									
+                                    <tr>
                                         <td colspan="2" style="padding-top:20px;">
                                         <input type="submit" value="<?php _e("Save Changes") ?>"/>
-                                        <span style="padding-left:25px;"> <a href="http://www.rumbletalk.com/admin/groups.php">Advanced Settings<a/></span>
+                                        <span style="padding-left:25px;"> <a href="http://www.rumbletalk.com/admin/groups.php">Admin Advanced Settings<a/></span>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2" style="padding-top:20px;"><span style="font:arial 8px none; color:green">&#42; In some wordpress themes 2 known issues might occur, please <br/>see below the way to fix it.</span></td>
+                                        <td colspan="2" style="padding-top:20px;"><span style="font:arial 8px none; color:green">&#42; In some wordpress themes, there are two known issues, please <br/>see below the way to handle it.</span></td>
                                     </tr>
                                     <tr>
                                         <td colspan="2" align="left"  style="padding-top:30px;"><img width="490" src="http://d1pfint8izqszg.cloudfront.net/emails/Mailxa-04.png" /></td>
@@ -402,7 +449,10 @@ class RumbleTalkChat {
                     <td  valign="top">
 
                         <div style="float:right; width:290px; border:1px #DEDEDD dashed; background-color:#FEFAE7; padding:10px 10px 10px 10px">
-                            <b>Description:</b> The <a href="http://www.rumbletalk.com/?utm_source=wordpress&utm_medium=plugin&utm_campaign=fromplugin" target="_blank">RumbleTalk</a> Plugin is a boutique chat room Platform for websites, facebook pages and real-time events. Perfect for Communities, radios and live stream. It is available for all Wordpress installed versions.<br />
+							<a href="https://wordpress.org/support/view/plugin-reviews/rumbletalk-chat-a-chat-with-themes#postform"><img src="http://cdn.rumbletalk.com/blog/5stars.png" style="padding-left:80px;"/>
+							<br><span style="padding-left:110px;">rate us</span></a>
+							<br><br>
+							<b>Description:</b> The <a href="http://www.rumbletalk.com/?utm_source=wordpress&utm_medium=plugin&utm_campaign=fromplugin" target="_blank">RumbleTalk</a> Plugin is a boutique chat room Platform for websites, facebook pages and real-time events. Perfect for Communities, radios and live stream. It is available for all Wordpress installed versions.<br />
                             <br />
                             <b>Like the plugin? "Like" RumbleTalk Chat!</b>
                             <div id="fb-root"></div>
@@ -447,29 +497,30 @@ class RumbleTalkChat {
                                 <tr>
                                     <td>
 										<ul type="circle">
-										    <li>* New - Live video calls </li>
+										    <li>* Live video & Audio calls </li>
+											<li>* Upload Docs, Excel, PowerPoint, PDF</li>
+											<li>* Upload Images from your own PC</li>
+											<li>* Take pictures from your PC camera</li>											
+											<li>* Design your own chat theme</li>											
+											<br>
 										    <li>* Send Audio Messages</li>
 											<li>* Chat-room Theme Library</li>
 											<li>* Talk from Mobile and Tablet</li>
-											<li>* Login, Share Invite using Facebook and Twitter</li>
+											<li>* Login using Facebook and Twitter</li>
 											<li>* Private chat</li>
 											<li>* One chat for your WP and facebook page</li>
 											<li>* SSL- talk in a secure channel</li>
-											<li>* Design your own chat theme</li>
 											<li>* Advance design with css </li>
 											<li>* Manage as many chats as you like</li>
 											<li>* Spam filter (create a black listed words)</li>
 											<li>* Ban, Delete Trolls</li>
 											<li>* Define moderators and rolls</li>
-											<li>* Archive your chat, Save log of your chat history</li>
+											<li>* Save and export your chat history</li>
 											<li>* Chat in 30 languages</li>
 											<li>* Offline Mode (when you are not around)</li>
 											<li>* Delete single messages</li>
 											<li>* Flood control</li>
-											<li>* Upload Docs, Excel, PowerPoint, PDF</li>
-											<li>* Upload Images from your own PC</li>
-											<li>* Take pictures from your PC camera</li>
-											<li>* New set of smilies </li>
+											<li>* Cool smilies </li>
 										</ul>
 									</td>
 								</td>
@@ -559,15 +610,8 @@ class RumbleTalkChat {
                             With RumbleTalk you may create your own chat design (theme), share images and videos, talk from your mobile and even add the same chat installed on your website to your facebook page.
                             <br />
                             <br />
-                            <a  target="_blank" href="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn1/555083_529814737068782_1413799779_n.png">
-                                <img width="100" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn1/555083_529814737068782_1413799779_n.png" />
-                            </a>
-                            <a  target="_blank" href="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/554878_529815873735335_800794496_n.png">
-                                <img width="100" src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash3/554878_529815873735335_800794496_n.png" />
-                            </a>
-                            <br />
-                            <a  target="_blank" href="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/564947_465273650189558_696427239_n.jpg">
-                                <img width="100" src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash3/564947_465273650189558_696427239_n.jpg" />
+                            <a  target="_blank" href="http://d1pfint8izqszg.cloudfront.net/blog/dana1_ppt_godepression.png">
+                                <img width="100" src="http://d1pfint8izqszg.cloudfront.net/blog/dana1_ppt_godepression.png" />
                             </a>
                             <a  target="_blank" href="http://d1pfint8izqszg.cloudfront.net/images/donotuseyet.png">
                                 <img width="100" src="http://d1pfint8izqszg.cloudfront.net/images/donotuseyet.png" />
@@ -578,10 +622,6 @@ class RumbleTalkChat {
                             </a>
                             <a  target="_blank" href="http://d1pfint8izqszg.cloudfront.net/images/blog/DeleteAllMessages2.png">
                                 <img width="100" src="http://d1pfint8izqszg.cloudfront.net/images/blog/DeleteAllMessages2.png" />
-                            </a>
-                            <br />
-                            <a  target="_blank" href="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash4/422387_340738479309743_255273953_n.jpg">
-                                <img width="100" src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash4/422387_340738479309743_255273953_n.jpg" />
                             </a>
                             <br />
                             <br />
