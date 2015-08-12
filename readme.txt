@@ -1,4 +1,4 @@
-﻿=== HTML5 Online CHAT ROOM Widget ===
+﻿=== HTML5 Online GROUP CHAT Widget ===
 Contributors: RumbleTalk Chat
 Donate link:
 Tags: group chat, chat, chatroom, chat room, community chat, video chat, social chat, discussion chat, team chat, html5 chat, chatroom widget, chat plugin, live chat,
@@ -6,11 +6,11 @@ Requires at least: 2.0.2
 Tested up to: 4.3.0
 Stable tag: 4.1.3 
 
-Hosted Live group Chat Room for your wordpress web site with over than 420,000 chat rooms created. Share Files, Upload images, video chat...and more
+Hosted Live group Chat Room for your wordpress web site with over than 421,000 chat rooms created. Share Files, Upload images, video chat...and more
 
 == Description == 
 
-420,000 websites are already using <a href="http://www.rumbletalk.com/">RumbleTalk</a> Chat room, Join NOW!
+421,000 websites are already using <a href="http://www.rumbletalk.com/">RumbleTalk</a> Chat room, Join NOW!
  
 RumbleTalk is a combination of live group chat with private video and audio calls. It is a hosted professional **chat room plugin** to connect you with your web site visitors.
 You may add it to any type of web site, blog or real-time event. You may also add it to facebook.
@@ -30,6 +30,7 @@ Ideal plugin for community, radio show, fans, stocks & forex trading, hobby, spo
 <pre>
 * NEW - Export Chat Transcript from the chat interface
 * NEW - Auto login with your own users base (API)
+* NEW - Control the side of the floating icon
 
 * Upload Images from your mobile device
 * Take photos from your mobile version
